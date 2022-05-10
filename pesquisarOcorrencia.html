@@ -58,80 +58,6 @@
     </aside>
 
     <section class="publicacoes ">
-       
-        <div class="ocorrencia">
-            <div class="oc-header">
-                <button><i class='fa-solid fa-pen'></i></button>
-                <button><i class='fa-solid fa-rectangle-xmark'></i></button>
-            </div>
-            <div class="oc-titulo">
-                <h3>Jorge Texeira</h3>
-                <div class="opcao"></div>
-            </div>
-            <div class="oc-body">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quod? Harum aliquid tenetur
-                    exercitationem.
-                    Consequuntur saepe
-                    impedit non necessitatibus sapiente alias eaque beatae, dolores nam voluptatibus nemo, soluta,
-                    voluptas tenetur.
-                </p>
-            </div>
-
-            <div class="oc-footer">
-                <div class="oc-f-icon">
-                    <span class="qtd-like">0</span>
-                    <button><i class='fa-solid fa-thumbs-up'></i></button>
-                    <span>Curti</span>
-
-                </div>
-                <div class="oc-f-icon">
-                    <button> <i class='fa-solid fa-message'></i></button>
-                    <span>Comentar</span>
-                </div>
-                <div class="oc-f-icon">
-                    <button> <i class="fa-solid fa-share-from-square"></i></button>
-                    <span>Compartilhar</span>
-                </div>
-            </div>
-        </div>
-        <div class="ocorrencia">
-            <span>Agente 1</span>
-            <div class="oc-header">
-                <button><i class='fa-solid fa-pen'></i></button>
-                <button><i class='fa-solid fa-rectangle-xmark'></i></button>
-            </div>
-            <div class="oc-titulo">
-                <h3>Jorge Texeira</h3>
-                <div class="opcao"></div>
-            </div>
-            <div class="oc-body">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quod? Harum aliquid tenetur
-                    exercitationem.
-                    Consequuntur saepe
-                    impedit non necessitatibus sapiente alias eaque beatae, dolores nam voluptatibus nemo, soluta,
-                    voluptas tenetur.
-                </p>
-            </div>
-
-            <div class="oc-footer">
-                <div class="oc-f-icon">
-                    <span class="qtd-like">0</span>
-                    <button><i class='fa-solid fa-thumbs-up'></i></button>
-                    <span>Curti</span>
-
-                </div>
-                <div class="oc-f-icon">
-                    <button> <i class='fa-solid fa-message'></i></button>
-                    <span>Comentar</span>
-                </div>
-                <div class="oc-f-icon">
-                    <button> <i class="fa-solid fa-share-from-square"></i></button>
-                    <span>Compartilhar</span>
-                </div>
-            </div>
-        </div>
 
         <div class="ocorrencia">
             <div class="oc-header">
@@ -154,13 +80,13 @@
 
             <div class="oc-footer">
                 <div class="oc-f-icon">
-                    <span class="qtd-like">0</span>
-                    <button><i class='fa-solid fa-thumbs-up'></i></button>
+                    <div class="qtd-like qtd-like-on"></div>
+                    <button class="like"><i class='fa-solid fa-thumbs-up'></i></button>
                     <span>Curti</span>
 
                 </div>
                 <div class="oc-f-icon">
-                    <button> <i class='fa-solid fa-message'></i></button>
+                    <button class="comentario"> <i class='fa-solid fa-message'></i></button>
                     <span>Comentar</span>
                 </div>
                 <div class="oc-f-icon">
@@ -169,7 +95,26 @@
                 </div>
             </div>
         </div>
+
+
+        <script src="js/pesquisarOcorrencia.js"></script>
     </section>
+
+
+    <div class="comentar">
+        <div class="comentario-area">
+            <div class="inserir-comentario">
+                <form>
+                    <textarea>
+
+                    </textarea>
+                    <button>Enviar</button>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
 </body>
 
 </html>
