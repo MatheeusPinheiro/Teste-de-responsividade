@@ -39,6 +39,11 @@
     padding-left: 10px;
 }
 
+.dash-item{
+    width: 100px;
+    height: 100px;
+}
+
 @media (min-width: 375px) {
     header{
         width: 100% ; 
