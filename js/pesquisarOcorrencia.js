@@ -58,3 +58,24 @@ if(comentario){
      e.preventDefault();
      alert('Calma ai patrão');
  }
+
+
+
+
+
+
+ /*Area menu lateral */
+
+
+ let menuLateral = document.querySelector('.menu .menu-icon');
+
+ const abriMenu =()=> document.querySelector('aside ').classList.add('abrirMenuLateral');
+ const fecharMenu =()=> document.querySelector('aside').classList.remove('abrirMenuLateral');
+
+ menuLateral.addEventListener('click', ()=>{
+     if(document.querySelector('aside ').classList.contains('abrirMenuLateral')){
+         fecharMenu();
+     }else{
+         abriMenu();
+     }
+ });    
