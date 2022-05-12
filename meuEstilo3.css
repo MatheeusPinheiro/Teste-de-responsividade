@@ -182,7 +182,7 @@
         max-width: 90%;
         margin:auto;
         background-color: #fff;
-        box-shadow: 0px 0px 10px #1fb34193;
+        box-shadow: 0px 0px 20px #1fb34193;
         padding:5px 0 10px 0;
         border-radius: 10px;
         margin-bottom: 30px;
@@ -295,6 +295,7 @@
         display: none;
         justify-content: center;
         align-items: center;
+       
     }
 
     .comentario-area{
@@ -302,23 +303,68 @@
         height: 600px;
         background-color: #fff;
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         justify-content: center;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+
+    .comentarios-area{
+        flex:1;
+        width: 100%;
+        background-color: #daa520;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inserir-comentario{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fechar-cometario{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 10px;
+    }
+
+    .fechar-cometario button{
+        border:0;
+        outline: 0;
+        cursor: pointer;
+        background-color: transparent;
+    }
+
+    .fechar-cometario button img{
+       width: 20px;
+       height: 20px;
     }
     .inserir-comentario form{
+        
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-bottom: 10px;
+        margin-top: 10px;
     }
 
     
     .inserir-comentario textarea{
-        width: 270px;
-        height:60px;
+        width: 280px;
+        height:50px;
         padding-left: 10px;
         padding-top: 5px;
         outline: 0;
+        resize: none;
     }
     .inserir-comentario textarea:hover{
         box-sizing: 0px 0px 10px rgba(51, 147, 237, 0.333);
@@ -326,11 +372,25 @@
     .inserir-comentario button{
         padding: 7px;
         margin-left: 10px;
+        border:0;
+        outline: 0;
+        background-color: transparent;
+    }
+
+    .inserir-comentario button img{
+        width: 50px;
+        height: 50px;
     }
 
     .comentario-off{
+        display: none;
+    }
+
+    .comentario-open{
         display: flex;
     }
+
+   
 }   
 
 
